@@ -1,7 +1,6 @@
 class User:
-    def __init__(self, nome, status):
+    def __init__(self, nome):
         self.nome = nome
-        self.status = status
         
     def cadastro(self, cadastrar_email, cadastrar_senha):
         if self.status == "cadastrado":
