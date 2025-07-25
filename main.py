@@ -3,7 +3,7 @@ class User:
         self.nome = nome
         self.status = status
         
-    def cadastro(self, email, senha):
+    def cadastro(self):
         if self.status == "cadastrado":
             return f"{self.nome} já é cadastrado"
         
